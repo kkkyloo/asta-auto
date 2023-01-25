@@ -1,0 +1,83 @@
+.nav-text1{
+    position: absolute;
+    z-index: 99;
+    left: 22vw;
+    color: white;
+    top: 5vh;
+    font-size: 1.1vw;
+}
+.nav-text2{
+    position: absolute;
+    z-index: 99;
+    left: 33vw;
+    color: white;
+    top: 5vh;
+    font-size: 1.1vw;
+}
+.nav-text3{
+    position: absolute;
+    z-index: 99;
+    left: 43.4vw;
+    color: white;
+    top: 5vh;
+    font-size: 1.1vw;
+}
+.nav-text4{
+    position: absolute;
+    z-index: 99;
+    left: 59.9vw;
+    color: white;
+    top: 5vh;
+    font-size: 1.1vw;
+}
+.nav-text5{
+    position: absolute;
+    z-index: 99;
+    left: 76.6vw;
+    color: white;
+    top: 5vh;
+    font-size: 1.1vw;
+}
+.nav-text6{
+    position: absolute;
+    z-index: 99;
+    left: 88.6vw;
+    color: white;
+    top: 5vh;
+    font-size: 1.1vw;
+}
+.logo-phone{
+    color: white;
+    top: 6.6vw;
+    position: absolute;
+    z-index: 99;
+    left: 4.9vw;
+    font-size: 0.79vw;
+    
+}
+.logo-adress{
+    color: white;
+    top: 5.5vw;
+    position: absolute;
+    z-index: 99;
+    left: 4.9vw;
+    font-size: 0.79vw;
+}
+
+.no-dur{
+    text-decoration: none;
+    color: white;
+}
+.no-dur:hover{
+    color: rgb(190, 190, 190);
+}
+.no-dur2{
+    text-decoration: none;
+    color: white;
+}
+.no-dur2:hover{
+    color: white;
+}
+.under{
+    text-decoration: underline;
+}
