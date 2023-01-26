@@ -81,3 +81,8 @@
 .under{
     text-decoration: underline;
 }
+
+.opis,
+.tel{
+    font-size: 1.2vw;
+}
