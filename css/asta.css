@@ -90,3 +90,23 @@
     will-change: contents;
 
 }
+/* .navbar-brand{
+    margin: 0px 0px 0px 110px !important;
+} */
+
+.nav-mob{
+    line-height:35px;
+    font-size: 4.7vw;
+}
+.mob-navbar{
+    display: none !important;
+}
+@media (max-width: 600px) {
+    .header{
+        display: none;
+    }
+    .mob-navbar{
+        display:block !important;
+    }
+}
+

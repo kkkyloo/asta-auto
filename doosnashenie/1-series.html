@@ -17,36 +17,98 @@
     <div id="preloder">
       <div class="loader"></div>
     </div>
-    <header>
-      <nav><a href="../index.html">
-          <div class="logo-asta no-dur">АСТА-АВТО</div></a>
-          <div class="logo-city">РОСТОВ-НА-ДОНУ</div>
-          <div class="logo-adress">УЛ. ПЕСКОВА 1В</div>
-          <div class="logo-phone">ТЕЛ. <a class="no-dur under" href="tel:+78632002222">+7 863-200-22-22</a><br>ТЕЛ. <a class="no-dur under" href="tel:+78005000591">+7 800-500-05-91</a></div>
+    <header class="header">
+      <div class="header_body">
+      <a href>
+        <div class="logo-asta no-dur">АСТА-АВТО</div>
+      </a>
+      <div class="logo-city">РОСТОВ-НА-ДОНУ</div>
+      <div class="logo-adress">УЛ. ПЕСКОВА 1В</div>
+      <div class="logo-phone">
+        ТЕЛ.
+        <a class="no-dur under" href="tel:+78632002222">+7 863-200-22-22</a>
+        <br>ТЕЛ. <a class="no-dur under" href="tel:+78005000591">+7 800-500-05-91</a>
+      </div>
+      </div>
 
-        <div class="nav-asta">
-            <div class="nav-text1">
-              <a href=/#bmw_modal data-bs-target=#bmw_modal data-bs-toggle=modal onclick=openModal() class="no-dur">Дооснащение</a>
-            </div>
-            <div class="nav-text2">
-              <a href="https://chip-asta-auto.ru/" class="no-dur">Чип-тюнинг</a>
-            </div>
-            <div class="nav-text3">
-              <a href="/malyarno-kuzovnoj-ceh" class="no-dur">Малярно-кузовной цех</a>
-            </div>
-            <div class="nav-text4">
-              <a href="/servis" class="no-dur">Сервисный центр BMW</a>
-            </div>
-            <div class="nav-text5">
-              <a href="#contacts" class="no-dur">Схема проезда</a>
-            </div>
-            <div class="nav-text6">
-              <a href="#contacts" class="no-dur">Контакты</a>
-            </div>
+      <div class="nav-asta">
+          <div class="nav-text1">
+            <a href=/#bmw_modal data-bs-target=#bmw_modal data-bs-toggle=modal onclick=openModal() class="no-dur">Дооснащение</a>
+          </div>
+          <div class="nav-text2">
+            <a href="https://chip-asta-auto.ru/" class="no-dur">Чип-тюнинг</a>
+          </div>
+          <div class="nav-text3">
+            <a href="/malyarno-kuzovnoj-ceh" class="no-dur">Малярно-кузовной цех</a>
+          </div>
+          <div class="nav-text4">
+            <a href="/servis" class="no-dur">Сервисный центр BMW</a>
+          </div>
+          <div class="nav-text5">
+            <a href="#contacts" class="no-dur">Схема проезда</a>
+          </div>
+          <div class="nav-text6">
+            <a href="#contacts" class="no-dur">Контакты</a>
+          </div>
+      </div>
+
+    
+
+
+
+  </header>
+
+  <div class="mob-navbar">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+
+      <div class="row-2 g-5 nav-mob">
+        <div class="col">
+          <a href=/#bmw_modal data-bs-target=#bmw_modal data-bs-toggle=modal onclick=openModal() class="no-dur">Дооснащение</a>
         </div>
-      </nav>
-    </header>
+        <div class="col">
+          <a href="" class="no-dur">Чип-тюнинг</a>
+        </div>
+        <div class="col">
+          <a href="" class="no-dur">Малярно-кузовной цех</a>
+        </div>
+        <div class="col">
+          <a href="" class="no-dur">Сервисный центр BMW</a>
+        </div>
+        <div class="col">
+          <a href="" class="no-dur">Схема проезда</a>
+        </div>
+        <div class="col text-center">
+          <span class="text-center" style="color: white;"><br>Наши контакты:</span>
+        </div>  
+        <div class="col text-center" style="font-size: 4vw; color: white;">
+          <a class="no-dur under " href="tel:+78632002222">+7 863-200-22-22</a>
+          <br>
+          <a class="no-dur under" href="tel:+78005000591">+7 800-500-05-91</a> 
+          <br>
+          г. Ростов-на-Дону <br>ул. Пескова 1В</a>
+
+        </div>
+   
+    </div>
+
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">АСТА-АВТО</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+  </nav>
+  </div>
+
+
     <main>
+      
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="true">
         <div class="carousel-inner">
           <div class="carousel-item active c-item bmw" style="background-image:url('../images/slider_webp/5.png')">
@@ -120,7 +182,7 @@
           </div>
         </div>
       </div>
-      <!-- <div class="col">
+      <div class="col">
         <div class="row cards3 img-fluid">
           <div class="col">
             <div class="card" style="width: 22rem; height: 100%;">
@@ -148,7 +210,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <!-- <div class="col">
         <div class="row cards5 img-fluid">
           <div class="col">
             <div class="card" style="width: 22rem; height: 100%;">

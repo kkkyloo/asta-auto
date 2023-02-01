@@ -140,31 +140,54 @@ color: white;
 }
 
 @media (max-width: 600px) {
-
+    .caption{
+        font-size: 6vw;
+        left: 0vw;
+    }
     .card{
         width: 10rem !important;
     }
 
     .cards1{
-        position: absolute;
+        position: relative;
         z-index: 3;
-        left: 12vw;
-        top: 48.5vw;
+        left: 7vw;
+        top: -175vh;
         font-size: 3vw;
-
     }
     .cards2{
-        position: absolute;
+        position: relative;
         z-index: 3;
-        left: 55vw;
-        top: 48.5vw;
+        left: 3vw;
+        top: -175vh;
         font-size: 3vw;
-
+    }
+    .cards3{
+        position: relative;
+        z-index: 3;
+        left: 7vw;
+        top: -173vh;
+        font-size: 3vw;
+    }
+    .cards4{
+        position: relative;
+        z-index: 3;
+        left: 3vw;
+        top: -173vh;
+        font-size: 3vw;
     }
 
+    .card-title{
+        font-size: 4vw;
 
+    }
 
     .card-img-top{
         width: 158px !important;
     }
+    .bmw{
+        background-image: url("../../images/slider_webp/bmw-small.webp") !important;
+        background-position: center;
+        min-height: 200vh !important;
+   }
 } 
