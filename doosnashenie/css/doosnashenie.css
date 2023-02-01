@@ -20,13 +20,105 @@ width: 90%;
 height: 1%;
 color: white;
 }
-.cards{
-    position: relative;
+.cards1{
+    position: absolute;
     z-index: 3;
-    left: 5%;
-    top: 50%;
-    
+    left: 18vw;
+    top: 18.5vw;
+    font-size: 0.9vw;
+}
+.cards2{
+    position: absolute;
+    z-index: 3;
+    left: 41vw;
+    top: 18.5vw;
+    font-size: 0.9vw;
+}
+.cards3{
+    position: absolute;
+    z-index: 3;
+    left: 64vw;
+    top: 18.5vw;
+    font-size: 0.9vw;
 
+}
+.cards4{
+    position: absolute;
+    z-index: 3;
+    left: 18vw;
+    top: 43vw;
+    font-size: 0.9vw;
+}
+.cards5{
+    position: absolute;
+    z-index: 3;
+    left: 41vw;
+    top: 43vw;
+    font-size: 0.9vw;
+}
+.cards6{
+    position: absolute;
+    z-index: 3;
+    left: 64vw;
+    top: 43vw;
+    font-size: 0.9vw;
+}
+.cards7{
+    position: absolute;
+    z-index: 3;
+    left: 18vw;
+    top: 67.5vw;
+    font-size: 0.9vw;
+}
+.cards8{
+    position: absolute;
+    z-index: 3;
+    left: 41%;
+    top: 67.5vw;
+    font-size: 0.9vw;
+}
+.cards9{
+    position: absolute;
+    z-index: 3;
+    left: 64%;
+    top: 67.5vw;
+    font-size: 0.9vw;
+}
+.cards10{
+    position: absolute;
+    z-index: 3;
+    left: 18vw;
+    top: 92vw;
+    font-size: 0.9vw;
+}
+.cards11{
+    position: absolute;
+    z-index: 3;
+    left: 41vw;
+    top: 92vw;
+    font-size: 0.9vw;
+}
+.cards12{
+    position: absolute;
+    z-index: 3;
+    left: 64vw;
+    top: 92vw;
+    font-size: 0.9vw;
+    
+}
+
+.cards-bmw{
+    will-change: contents;
+
+}
+
+
+
+.c-item{
+    max-width: 100%;
+    min-height: 130vw;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -34,3 +126,45 @@ color: white;
     position: relative;
     z-index: 1;
 }
+.caption{
+    left: 28.4%;
+    font-size: 3vw;
+    top: 3vw;
+}
+.card-img-top{
+    pointer-events: none;
+    
+}
+.cards-bmw{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    .card{
+        width: 10rem !important;
+    }
+
+    .cards1{
+        position: absolute;
+        z-index: 3;
+        left: 12vw;
+        top: 48.5vw;
+        font-size: 3vw;
+
+    }
+    .cards2{
+        position: absolute;
+        z-index: 3;
+        left: 55vw;
+        top: 48.5vw;
+        font-size: 3vw;
+
+    }
+
+
+
+    .card-img-top{
+        width: 158px !important;
+    }
+} 

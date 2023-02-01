@@ -86,3 +86,7 @@
 .tel{
     font-size: 1.2vw;
 }
+.footer{
+    will-change: contents;
+
+}

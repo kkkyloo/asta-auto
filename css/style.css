@@ -86,11 +86,11 @@
     overflow: hidden;
 }
 .img-fluid {
-    transition: 0.5s;
+    transition: 0.4s;
     display: block;
 }
 .img-fluid:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
 }
 .caption{
     line-height: 5vw;
