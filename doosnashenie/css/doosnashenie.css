@@ -141,9 +141,9 @@ color: white;
 
 @media (max-width: 600px) {
     .caption{
-        font-size: 8vw;
+        font-size: 10vw;
         left: 0vw;
-        line-height: 11vw;
+        line-height: 13vw;
         width: 100%;
         
 
@@ -157,28 +157,28 @@ color: white;
         position: relative;
         z-index: 3;
         left: 10vw;
-        top: -170vh;
+        top: -168vh;
         font-size: 3vw;
     }
     .cards2{
         position: relative;
         z-index: 3;
         left: 6vw;
-        top: -170vh;
+        top: -168vh;
         font-size: 3vw;
     }
     .cards3{
         position: relative;
         z-index: 3;
         left: 10vw;
-        top: -167vh;
+        top: -165vh;
         font-size: 3vw;
     }
     .cards4{
         position: relative;
         z-index: 3;
         left: 6vw;
-        top: -167vh;
+        top: -165vh;
         font-size: 3vw;
     }
 
