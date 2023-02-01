@@ -97,6 +97,8 @@
 .nav-mob{
     line-height:35px;
     font-size: 4.7vw;
+    width: 100%;
+
 }
 .mob-navbar{
     display: none !important;

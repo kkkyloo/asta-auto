@@ -141,39 +141,44 @@ color: white;
 
 @media (max-width: 600px) {
     .caption{
-        font-size: 6vw;
+        font-size: 8vw;
         left: 0vw;
+        line-height: 11vw;
+        width: 100%;
+        
+
+        
     }
     .card{
-        width: 10rem !important;
+        width: 40vw !important;
     }
 
     .cards1{
         position: relative;
         z-index: 3;
-        left: 7vw;
-        top: -175vh;
+        left: 10vw;
+        top: -170vh;
         font-size: 3vw;
     }
     .cards2{
         position: relative;
         z-index: 3;
-        left: 3vw;
-        top: -175vh;
+        left: 6vw;
+        top: -170vh;
         font-size: 3vw;
     }
     .cards3{
         position: relative;
         z-index: 3;
-        left: 7vw;
-        top: -173vh;
+        left: 10vw;
+        top: -167vh;
         font-size: 3vw;
     }
     .cards4{
         position: relative;
         z-index: 3;
-        left: 3vw;
-        top: -173vh;
+        left: 6vw;
+        top: -167vh;
         font-size: 3vw;
     }
 
@@ -183,11 +188,21 @@ color: white;
     }
 
     .card-img-top{
-        width: 158px !important;
+        width: auto !important;
     }
     .bmw{
         background-image: url("../../images/slider_webp/bmw-small.webp") !important;
         background-position: center;
         min-height: 200vh !important;
+   }
+   .btn{
+    font-size: 3.4vw;
+   }
+   .cards-bmw{
+    width: 100%;
+   }
+
+   .col-one{
+    height: 10% !important;
    }
 } 
