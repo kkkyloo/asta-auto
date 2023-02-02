@@ -112,11 +112,16 @@ color: white;
 
 }
 
-
+.card-text{
+    font-size: 0.91vw;
+}
+.card-title{
+    font-size: 1.14vw; 
+}
 
 .c-item{
     max-width: 100%;
-    min-height: 130vw;
+    min-height: 122vw;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -157,43 +162,108 @@ color: white;
         position: relative;
         z-index: 3;
         left: 10vw;
-        top: -168vh;
+        top: -260vh;
         font-size: 3vw;
     }
     .cards2{
         position: relative;
         z-index: 3;
         left: 6vw;
-        top: -168vh;
+        top: -260vh;
         font-size: 3vw;
     }
     .cards3{
         position: relative;
         z-index: 3;
         left: 10vw;
-        top: -165vh;
+        top: -257vh;
         font-size: 3vw;
     }
     .cards4{
         position: relative;
         z-index: 3;
         left: 6vw;
-        top: -165vh;
+        top: -257vh;
+        font-size: 3vw;
+    }
+    .cards5{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -254vh;
+        font-size: 3vw;
+    }
+    .cards6{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -254vh;
+        font-size: 3vw;
+    }
+    .cards7{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -251vh;
+        font-size: 3vw;
+    }
+    .cards8{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -251vh;
+        font-size: 3vw;
+    }
+    .cards9{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -248vh;
+        font-size: 3vw;
+    }
+    .cards10{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -248vh;
+        font-size: 3vw;
+    }
+    .cards11{
+        position: relative;
+        z-index: 3;
+        left: 10vw;
+        top: -245vh;
+        font-size: 3vw;
+    }
+    .cards12{
+        position: relative;
+        z-index: 3;
+        left: 6vw;
+        top: -245vh;
+        font-size: 3vw;
+    }
+    .card-img-top{
+        width:auto !important;
+        height: 110px !important;
+    }
+
+    .card-text{
         font-size: 3vw;
     }
 
-    .card-title{
-        font-size: 4vw;
 
+
+    .card-title{
+        font-size: 3.86vw; 
     }
 
     .card-img-top{
         width: auto !important;
     }
     .bmw{
-        background-image: url("../../images/slider_webp/bmw-small.webp") !important;
+        background-image: url("../../images/slider_webp/sm.png") !important;
         background-position: center;
-        min-height: 200vh !important;
+        min-height: 300vh !important;
    }
    .btn{
     font-size: 3.4vw;

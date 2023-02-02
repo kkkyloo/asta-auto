@@ -102,6 +102,7 @@
 }
 .mob-navbar{
     display: none !important;
+    
 }
 @media (max-width: 600px) {
     .header{
@@ -109,6 +110,7 @@
     }
     .mob-navbar{
         display:block !important;
+   
     }
 }
 
