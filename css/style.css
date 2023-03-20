@@ -1,3 +1,8 @@
+
+input:focus{outline: none;}
+
+
+
 #preloder {
     position: fixed;
     width: 100%;
@@ -98,6 +103,7 @@
     text-align: left;
     top: 4vw;
     left: 4.7vw;
+
 }
 .carousel-inner{
     pointer-events: none;
@@ -289,6 +295,9 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
 }
+
+
+
 @media (min-width: 2100px) {
     .footer{
         font-size: 1vw;
@@ -313,17 +322,23 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 .logo-city{
     color: white;
-    top: 4.1vw;
+    top: 4.3vw;
     position: absolute;
     z-index: 99;
     left: 4.8vw;
     font-size: 1.1vw;
 }
 .caption{
+    /* line-height: 4vw;
+    font-size: 3.4vw;
+    text-align: left;
+    top: 7vw;
+    left: 4.8vw; */
+
     line-height: 5vw;
     font-size: 3.5vw;
     text-align: left;
-    top: 4vw;
+    top: 7vw;
     left: 4.7vw;
 }
     .bmw{
@@ -389,7 +404,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 @media (max-width: 950px) and (min-height: 900px){
 
     .bmw{
-        background-image: url("../images/slider_webp/bmw-small.webp") !important;
+        background-image: url("../images/slider_webp/new_bmw.jpg") !important;
         background-position: center;
         min-height: 99vh;
    }
@@ -531,7 +546,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         display: inline;
    }
     .bmw{
-        background-image: url("../images/slider_webp/bmw-small.webp") !important;
+        background-image: url("../images/slider_webp/new_bmw.jpg") !important;
         background-position: center;
         min-height: 95vh;
    }
@@ -553,18 +568,32 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 @media (max-width: 575px) and (min-height: 500px){
     .chip_info{
-        margin-top: 120vh !important;
+        margin-top: 0vh !important;
         font-size: 5vw;
    }
+    .opis_comp{
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+    .tel{
+        font-size: 3.2vw !important;
+    }
+    .mess_numb{
+        margin-top: 13vh !important;
+    }
+    .opis{
+        font-size: 4vw !important;
+    }
+
     .c-item{
         background-size: cover;
-        min-height: 80vh !important;
+        min-height: 90vh !important;
         background-position: center;
    }
     .caption{
         font-size: 9.3vw;
-        line-height: 9vw;
-        top: 20vw;
+        line-height: 11vw;
+        top: 11vw;
         text-align: center;
         left: 0vw;
         min-width: 100%;
@@ -606,7 +635,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         display: none;
    }
     .bmw{
-        background-image: url("../images/slider_webp/bmw-small.webp") !important;
+        background-image: url("../images/slider_webp/new_bmw.jpg") !important;
         background-position: center;
         min-height: 80vh;
    }
@@ -686,7 +715,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         display: none;
    }
     .bmw{
-        background-image: url("../images/slider_webp/bmw-small.webp") !important;
+        background-image: url("../images/slider_webp/new_bmw.jpg") !important;
         background-position: center;
         min-height: 80vh;
    }
@@ -729,7 +758,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         font-size: 19px;
    }
     .bmw{
-        background-image: url("../images/slider_webp/bmw-small.webp") !important;
+        background-image: url("../images/slider_webp/new_bmw.jpg") !important;
         background-position: center;
         min-height: 99vh;
    }
@@ -883,7 +912,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
         display: none;
    }
     .bmw{
-        background-image: url("../images/slider_webp/bmw-small.webp") !important;
+        background-image: url("../images/slider_webp/new_bmw.jpg") !important;
         background-position: center;
         min-height: 80vh;
    }
