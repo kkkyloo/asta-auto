@@ -204,6 +204,7 @@ head{
     color: white;
     margin: 4%;
     font-size: 1.7vw;
+    z-index: 99 !important;
 }
 .text-muted{
     text-decoration: none;

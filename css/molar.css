@@ -12,7 +12,7 @@ body{
 
 .c-item{
     background-position: 10.4vw 37vh;
-    background-size: 40% 30vw;
+    background-size: 36% 30vw;
 }
 .carousel{
     position: relative;
@@ -25,12 +25,12 @@ body{
 }
 .carousel-control-prev-icon {
     position: absolute;
-    left: 20vw;
+    left: 11vw;
     margin-top: -84vw;
 }
 .carousel-control-next-icon {
     position: absolute;
-    right: 51.3vw;
+    right: 54vw;
     margin-top: -84vw;
 }
 .rab{
@@ -44,7 +44,7 @@ body{
 }
 img-comparison-slider{
     position: absolute;
-    top: 18vw;
-    left: 58vw;
+    top: 18.6vw;
+    left: 54vw;
     z-index: 100;
 }
