@@ -229,6 +229,12 @@ body{
 }
 
 
+@media (max-width: 800px) {
+.malar-content{
+    margin-right: 0% !important; 
+    margin-left: 0% !important;
+}
+}
 
 
 
