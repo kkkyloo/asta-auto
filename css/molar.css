@@ -166,7 +166,7 @@ body{
 /* SE */
 @media (max-width: 575px) and (min-height: 500px){  
     body{
-        background-size: 100% 190vh !important;
+        background-size: 100% 230vh !important;
         
     }
     .chip_info{
@@ -240,7 +240,7 @@ body{
 
 @media (max-width: 575px) and (min-height: 700px){  
     body{
-        background-size: 100% 160vh !important;
+        background-size: 100% 199vh !important;
         
     }
     .chip_info{
@@ -304,7 +304,7 @@ body{
 
 @media (max-width: 575px) and (min-height: 880px){  
     body{
-        background-size: 100% 155vh !important;
+        background-size: 100% 187vh !important;
         
     }
     .chip_info{
