@@ -16,7 +16,6 @@ body{
 
 
 
-
 @media (min-width: 2100px) {
     .footer{
         font-size: 1vw;
@@ -244,7 +243,7 @@ body{
         
     }
     .chip_info{
-        margin-top: 17vh !important;
+        margin-top: 25vh !important;
         font-size: 5vw;
    }
     .opis_comp{
@@ -302,13 +301,13 @@ body{
    }
 }
 
-@media (max-width: 575px) and (min-height: 880px){  
+@media (max-width: 575px) and (min-height: 830px){  
     body{
         background-size: 100% 187vh !important;
         
     }
     .chip_info{
-        margin-top: 15vh !important;
+        margin-top: 18vh !important;
         font-size: 5vw;
    }
     .opis_comp{

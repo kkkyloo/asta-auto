@@ -97,15 +97,14 @@
     will-change: contents;
 
 }
-/* .navbar-brand{
-    margin: 0px 0px 0px 110px !important;
-} */
+.navbar-brand{
+    font-size: 10vw;
+    
+}
 
 .nav-mob{
-    line-height:35px;
+    line-height: 11vw;
     font-size: 4.7vw;
-    width: 100%;
-
 }
 
 .mob-navbar{
