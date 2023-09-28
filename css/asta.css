@@ -119,6 +119,7 @@
         display:block !important;
    
     }
+
 }
 @media (max-width: 760px) and (min-height: 500px){
     .header{
@@ -128,4 +129,5 @@
         display:block !important;
    
     }
+    
 }

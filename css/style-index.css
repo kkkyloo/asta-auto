@@ -407,6 +407,11 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
 }
 @media (max-width: 950px) and (min-height: 900px){
 
+
+
+
+
+    
     body{
         /* background-image: url("../images/slider_webp/new_bmw322.jpg") !important;
         background-position: 50% -20%;
@@ -560,6 +565,14 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
    
 }
 @media (max-width: 575px) and (min-height: 500px){
+
+    .bmw-mob{
+        height: 4.8vh !important;
+    }
+
+
+
+
     .chip_info{
         margin-top: 4vh !important;
         font-size: 5vw;
@@ -573,7 +586,7 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
     }
 
     .opis{
-
+        font-size: 4vw !important;
     }
 
     .c-item{
@@ -643,6 +656,10 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
    }
 }
 @media (max-width: 360px) and (max-height: 600px){
+
+
+
+    
     .chip_info{
         margin-top: 145vh !important;
         font-size: 5vw;
@@ -726,8 +743,11 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
     figure.effect-text-four h4 {
         top: 60%;
    }
+   
 }
 @media (max-width: 1040px) and (min-height: 1200px){
+
+    
     .chip_info{
         margin-top: 160vh !important;
         font-size: 5vw;
@@ -844,6 +864,8 @@ figure.effect-text-four:hover h4::after, figure.effect-text-four:hover p {
    }
 }
 @media (max-width: 360px) and (max-height: 500px){
+
+    
     .c-item{
         background-size: cover;
         min-height: 80vh !important;
