@@ -7,7 +7,7 @@
     <meta name="keywords" content="ростов на дону, чип-тюнинг, audi, mercedes, bmw, toyota, land rover, porshe, lexus, skoda, volvo, mitsubishi, volkswagen">
     <title>Малярно-кузовной цех в Ростове-на-Дону -  Аста-Авто</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/general-style.css" rel="stylesheet">
     <link href="css/asta.css" rel="stylesheet">
     <link href="css/molar.css" rel="stylesheet">
     <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
@@ -58,52 +58,54 @@
 
   </header>
 
-    <div class="mob-navbar">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
+  <div class="mob-navbar">
+    <nav class="bg-dark border-bottom">
+      <div class="container text-center">
+        <div class="row-2 p-3">
+          <div class="col-12 no-dur navbar-brand">АСТА<img class="bmw-mob" src="images/bmw.png" style="height: 3.7vh; margin-top: -2%;">АВТО</div>
+          <div class="col-12" style="font-size: 3.8vw; color: white; margin-top: -3%;">Ростов-на-Дону</div>
+        </div>
 
-        <div class="row-2 g-5 nav-mob">
+        <div class="row-1 p-3 nav-mob text-center" style=" margin-top: -6%;">
           <div class="col">
-            <a href=/#bmw_modal data-bs-target=#bmw_modal data-bs-toggle=modal onclick=openModal() class="no-dur">Дооснащение</a>
-          </div>
-          <div class="col">
-            <a href="https://chip-asta-auto.ru/" class="no-dur">Чип-тюнинг</a>
+            <a href="service.html" class="no-dur under">Сервисный центр BMW</a>
           </div>
           <div class="col">
-            <a href="" class="no-dur">Малярно-кузовной цех</a>
+            <a href="malar.html" class="no-dur under">Малярно-кузовной цех</a>
           </div>
           <div class="col">
-            <a href="" class="no-dur">Сервисный центр BMW</a>
+            <a href=/#bmw_modal data-bs-target=#bmw_modal data-bs-toggle=modal onclick=openModal() class="no-dur under">Дооснащение</a>
           </div>
           <div class="col">
-            <a href="" class="no-dur">Схема проезда</a>
+            <a href="https://chip-asta-auto.ru/" class="no-dur under">Чип-тюнинг</a>
           </div>
-          <div class="col text-center">
-            <span class="text-center" style="color: white;"><br>Наши контакты:</span>
-          </div>  
-          <div class="col text-center" style="font-size: 4vw; color: white;">
-            <a class="no-dur under " href="tel:+78632002222">+7 863-200-22-22</a>
-            
-            <br>
-            г. Ростов-на-Дону <br>
-            <a href="/#contact" data-bs-target="#contact-modal" data-bs-toggle="modal" onclick="openModal()" class="nav-link px-2 no-dur under img-fluid" >ул. Пескова 1В</a>
-          </div>
-     
+          <div class="col">
+            <a href="#contacts" class="no-dur under">Схема проезда</a>
+          </div> 
       </div>
 
-      </div>
-    </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">АСТА-АВТО</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
+
+
+
       </div>
+
 
     </nav>
-    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    
     <div class=cars-modal>
       <div class="fade modal" id=bmw_modal aria-labelledby=bmw_modalLabel aria-hidden=true tabindex=-1>
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-lg-down modal-xl">
@@ -381,7 +383,7 @@
     <main>
       
 
-      <div class="caption text-center container-fluid"><br>Галерея наших работ</div>
+      <div class="caption text-center container-fluid p-2"><br>Галерея наших работ</div>
 
 
       <div class="container-fluid text-center">
@@ -459,19 +461,28 @@
 
 
 
-      <div class="chip_info">
-        <div class="container text-center"> 
-          <div class="row">
-            <div class="col opis_comp">Возможности нашего малярно-кузовного цеха:</div>
-          </div>
-          <div class="row">
-            <div class="col opis"><br>111111111111111111111111111111111111111111111</div>
-          </div><br>
+      <div class="container chip_info">
           
-          <div class="row">
-            <div class="col" id="contacts"><br>Как нас найти: <br> <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.860523804274!2d39.6065998158616!3d47.19974242398733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3bf141d6dcbe3%3A0x687489b1bd8e1da9!2z0YPQuy4g0J_QtdGB0LrQvtCy0LAsIDHQsiwg0KDQvtGB0YLQvtCyLdC90LAt0JTQvtC90YMsINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4sIDM0NDAzMw!5e0!3m2!1sru!2sru!4v1673999204250!5m2!1sru!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="row text-center justify-content-center">
+          <div class="col-11 opis_comp">Наши возможности:</div>
+          <ul>1</ul>
+          <ul>2</ul>
+
+
+        </div>
+        <!-- <div class="row justify-content-center text-center">
+          <div class="col-11 opis"><br>тутуту</div>
+        </div><br> -->
+      
+
+
+
+        <div class="row text-center justify-content-center">
+            <div class="col-10" id="contacts">Как нас найти: <br> <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.860523804274!2d39.6065998158616!3d47.19974242398733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3bf141d6dcbe3%3A0x687489b1bd8e1da9!2z0YPQuy4g0J_QtdGB0LrQvtCy0LAsIDHQsiwg0KDQvtGB0YLQvtCyLdC90LAt0JTQvtC90YMsINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4sIDM0NDAzMw!5e0!3m2!1sru!2sru!4v1673999204250!5m2!1sru!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+        <div class="row text-center justify-content-center">
             <div class="col" id="contacts"><br>Наши контакты: 
-              <br><br> <br>
+            
               <div class="no-dur under mess_numb">
                 <a href=/#contact_modal data-bs-target=#contact_modal data-bs-toggle=modal onclick=openModal() class="no-dur">Отправить нам сообщение <br> </a>
               </div>
@@ -479,14 +490,14 @@
               
               <br>
               <a class="no-dur under  tel" href="tel:+78632002222">+7 863-200-22-22</a><br><a class="no-dur under tel" href="tel:+78005000591">+7 800-500-05-91</a> <br> 
-            
-              
-            
             </div>
-          </div>
-
         </div>
-      </div>
+
+      
+    </div>
+
+
+
 
       <div class="contact">
         <div class="contact-modal">
@@ -520,14 +531,14 @@
       <div class="container footer">
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a class="nav-link px-2 text-muted img-fluid" href="/doosnashhenie">Дооснащение</a></li>
-            <li class="nav-item"><a class="nav-link px-2 text-muted img-fluid" href="https://chip-asta-auto.ru/">Чип-тюнинг</a></li>
-            <li class="nav-item"><a class="nav-link px-2 text-muted img-fluid" href="/malyarno-kuzovnoj-ceh">Малярно-кузовной цех</a></li>
-            <li class="nav-item"><a class="nav-link px-2 text-muted img-fluid" href="/servis">Сервисный центр BMW</a></li>
-            <li class="nav-item"><a href="/#contact" data-bs-target="#contact-modal" data-bs-toggle="modal" onclick="openModal()" class="nav-link px-2 text-muted img-fluid">Схема проезда</a></li>
-            <li class="nav-item"><a href="/#contact" data-bs-target="#contact-modal" data-bs-toggle="modal" onclick="openModal()" class="nav-link px-2 text-muted img-fluid" >Контакты</a></li>
+            <li class="nav-item"><a class="nav-link px-2 no-dur img-fluid" href=/#bmw_modal data-bs-target=#bmw_modal data-bs-toggle=modal onclick=openModal()>Дооснащение</a></li>
+            <li class="nav-item"><a class="nav-link px-2 no-dur img-fluid" href="https://chip-asta-auto.ru/">Чип-тюнинг</a></li>
+            <li class="nav-item"><a class="nav-link px-2 no-dur img-fluid" href="malar.html">Малярно-кузовной цех</a></li>
+            <li class="nav-item"><a class="nav-link px-2 no-dur img-fluid" href="/servis">Сервисный центр BMW</a></li>
+            <li class="nav-item"><a href=/#contact_modal data-bs-target=#contact_modal data-bs-toggle=modal onclick=openModal() class="nav-link px-2 no-dur img-fluid">Связаться с нами</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link px-2 no-dur img-fluid" >Контакты</a></li>
           </ul>
-          <p class="text-center text-muted"><a href="https://www.asta-auto.ru/" class="text-center text-muted img-fluid">© 2006 - 2023 АСТА-АВТО</a> </p>
+          <p class="text-center no-dur"><a href="https://www.asta-auto.ru/" class="text-center no-dur img-fluid">© 2004 - <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script><br>АСТА-АВТО</a></p>
         </footer>
       </div>
     </main>
@@ -536,9 +547,7 @@
     <script src="js/preloader.js"></script>
     <script src="js/jquery.event.move.js" type="text/javascript"></script>
     <script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
-    <script
-      defer
-      src="https://unpkg.com/img-comparison-slider@7/dist/index.js"
-    ></script>
+    <script src="js/compare.js" type="text/javascript"></script>
+
   </body>
 </html>

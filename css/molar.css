@@ -1,8 +1,8 @@
 body{
-    background-image: url('../images/slider_webp/6.jpg') !important; 
+    /* background-image: url('../images/slider_webp/6.jpg') !important;  */
     background-repeat: no-repeat !important;
     background-size: 100% 90vw !important;
-    
+    background-color:#212529;
 }
 .chip_info {
     margin-top: 26vh !important;
@@ -127,7 +127,7 @@ body{
         font-size: 82%;
    }
     .chip_info{
-        margin-top: 160vh !important;
+        margin-top: 0vh !important;
         font-size: 5vw;
    }
 }
@@ -135,7 +135,7 @@ body{
 
 @media (max-width: 760px) and (min-height: 500px){
     .chip_info{
-        margin-top: 105vh !important;
+        margin-top: 0vh !important;
         font-size: 5vw;
    }
 
@@ -164,12 +164,16 @@ body{
 
 /* SE */
 @media (max-width: 575px) and (min-height: 500px){  
+    .caption{
+        margin-top: 0vw;
+
+    }
     body{
         background-size: 100% 230vh !important;
         
     }
     .chip_info{
-        margin-top: 20vh !important;
+        margin-top: 0vh !important;
         font-size: 5vw;
    }
     .opis_comp{
@@ -180,7 +184,7 @@ body{
         font-size: 3.2vw !important;
     }
     .mess_numb{
-        margin-top: 13vh !important;
+        /* margin-top: 13vh !important; */
     }
     .opis{
         font-size: 4vw !important;
@@ -233,6 +237,7 @@ body{
     margin-right: 0% !important; 
     margin-left: 0% !important;
 }
+
 }
 
 
@@ -242,8 +247,12 @@ body{
         background-size: 100% 199vh !important;
         
     }
+    .caption{
+        margin-top: 0vw;
+
+    }
     .chip_info{
-        margin-top: 25vh !important;
+        margin-top: 0vh !important;
         font-size: 5vw;
    }
     .opis_comp{
@@ -254,7 +263,7 @@ body{
         font-size: 3.2vw !important;
     }
     .mess_numb{
-        margin-top: 13vh !important;
+        /* margin-top: 13vh !important; */
     }
     .opis{
         font-size: 4vw !important;
@@ -306,8 +315,12 @@ body{
         background-size: 100% 187vh !important;
         
     }
+    .caption{
+        margin-top: -8vw;
+
+    }
     .chip_info{
-        margin-top: 18vh !important;
+        margin-top: 0vh !important;
         font-size: 5vw;
    }
     .opis_comp{
@@ -318,7 +331,7 @@ body{
         font-size: 3.2vw !important;
     }
     .mess_numb{
-        margin-top: 13vh !important;
+        /* margin-top: 13vh !important; */
     }
     .opis{
         font-size: 4vw !important;
