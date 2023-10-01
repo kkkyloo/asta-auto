@@ -14,25 +14,27 @@ document.write('\
         <div class="text-center p-2" style="font-size: 20px;">ИЛИ</div>\
         <div class="text-center p-2" style="font-size: 20px;">Форма для отправки сообщения:</div>\
         <form action="telegram.php" method="POST">\
-          <div class="mb-3 form-group">\
+        <div class="row text-center justify-content-center">\
+          <div class="col-5 mb-3 form-group">\
             <label for="exampleInputEmail1" class="form-label">Как к вам обращаться?</label>\
             <input type="text" name="name" class="form-control" id="" id="validationCustom01" value="" required>\
           </div>\
-          <div class="mb-3 form-group">\
+          <div class="mb-3 col-7 form-group">\
             <label for="exampleInputPassword1"  class="form-label">Номер телефона для связи с вами</label>\
             <input type="text" name="phone" id="" class="form-control" data-tel-input placeholder="" maxlength="18" required/>\
           </div>\
-          <div class="mb-3 form-group">\
+          <div class="col mb-3 form-group">\
             <label for="exampleFormControlTextarea1" class="form-label">Ваше сообщение</label>\
-            <textarea class="form-control" name="message" id="" rows="2" required></textarea>\
+            <textarea class="form-control" name="message" id="" rows="5" required></textarea>\
           </div>\
-          <div class="mb-3 form-group">\
+          <div class="col mb-3 form-group">\
             <label for="exampleFormControlTextarea1" class="form-label">Выбор способа связи с вами</label>\
             <select name="sel" class="form-select" id="">\
               <option value="1">Позвонить по номеру телефона</option>\
               <option value="2">Написать в WhatsApp</option>\
               <option value="3">Написать в Telegram</option>\
             </select>\
+        </div>\
         </div>\
       </div>\
       <div class="modal-footer"><button type="submit" class="btn btn-dark">Отправить</button></form><button type="button" class="btn btn-dark" data-bs-target="#modal" data-bs-toggle="modal">Закрыть окно</button></div>\
